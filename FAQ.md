@@ -79,8 +79,8 @@
 |   |   |-    How can I view, edit or create Office Documents? (without libertine please)
 |   |   |-    Will all apps be migrated from the Canonical store to the OpenStore?
 |   |   |-    [***] I am interested in learning programming apps for Ubuntu Touch, what is the best language to start with and are there any courses?  A: miguel's course and C++ I think...
-|   |   |-    [***] PERHAPS A QUESTION ABOUT TELEGRAM, MATRIX, ETC?      
-|   |    
+|   |   |-    [***] PERHAPS A QUESTION ABOUT TELEGRAM, MATRIX, ETC?
+|   |
 |   |- Other
 |   |   |-    How do you pronounce UBports? How do you say Ubuntu?
 \
@@ -113,7 +113,7 @@ We are happy to say that we've collected the required members to file the paperw
 
 The UBports Foundation's mission is to support the collaborative development of Ubuntu Touch and to promote the widespread use of Ubuntu Touch. It will give users a body to trust in the development of Ubuntu Touch. It will also improve our transparency in funding, spending, and decision making.
 
-To learn more about the UBports Foundation, please visit https://www.ubports.com/page/foundation
+To learn more, check out the [UBports Foundation](https://www.ubports.com/page/foundation). 
 
 
 Our goals:
@@ -137,7 +137,7 @@ Our goals:
           
 The simple answer is that we cannot upgrade these devices because their Android source tree is closed and there is no *official* Lineage OS port available. This can be broken down into *more* explanation!
 
-a) Why do you need Android at all? Aren't you making a GNU/Linux distribution?    
+a) Why do you need Android at all? Aren't you making a GNU/Linux distribution?
 
 This is the unfortunate reality of Android hardware. There is no BIOS or UEFI to start up all the bits and pieces of a device. There aren't standard ways to access hardware. To be perfectly honest, it's a complete mess. It's the mess that we live in, though. 
 
@@ -145,7 +145,7 @@ Android drivers are written for Android and nothing else. A regular GNU/Linux di
 
 In order to build Halium for a single device, we need to have all of the source and configuration that goes into that device. This brings up our next problem.
 
-Closed Android Source Tree                                      
+Closed Android Source Tree
 
 Most of Android is licensed under the Apache license, so there is no need for a device manufacturer to provide this code and configuration to the world. BQ and Meizu chose not to provide this source code except to their partners. This choice is within their rights.
 
@@ -157,7 +157,7 @@ A device kernel must always be open source due to the copyleft nature of the GPL
 Sometimes, though, the Lineage OS community is able to put everything together and release their OS to a closed source device. This can lead to our third problem.
 
 
-Official Lineage OS Ports                                      
+Official Lineage OS Ports
 
 For now, official ports of Halium are based on official ports of Lineage OS. This is because we want to provide the most reliable experience for developers. An unofficial port of Lineage OS (or Resurrection Remix, or one of the other hundreds of Android ROMs) can have issues in drivers that cripple development before it even begins. We don't have the time or manpower to deal with these issues. Porting to devices is difficult enough as it is.
 
@@ -180,13 +180,9 @@ The most stable version available for the core devices (Nexus5, Fairphone 2 and 
 
 ### 2.4 Which devices will be supported by the 16.04 branch? Update
 
-The core devices... please see
+From our recent developments of Project Sudoku, we've been able to change how we will handle our policy for the Legacy phones. In our original plan to bring our platform to 16.04, we were using systemd, which requires changes to a device's kernel to use versus Upstart. With Sudoku, we are continuing to use Upstart. This means that we can bring 16.04 to all of our currently supported devices.
 
-   This is not yet decided
-
-   Promising candidates are the Fairphone 2, Nexus 5, Oneplus One and Bq M10 tablet, but this may change in the future.
-
-   [is this still updated? i think this might have some more certainty] (Actually, it's even more difficult to explain. I've been told not to go into detail as Sudoku is early days.)
+We have begun creating 16.04 images for all supported devices. It is currently only for use by developers and testers, many things either do not work or will be broken by coming changes.
 
 
 ### 2.5 When will I be able to re-flash my phone with new 16.04 images?
@@ -220,11 +216,11 @@ With the success of Halium, our release time frame is expected to be significant
 
    Core Devices are the Devices that will recieve all the new features, critical security-updates and bug-fixes from UBports. These devices will soon be rebased on Ubuntu 16.04 LTS. Until then, the existing legacy image (based on 15.04) can be installed.
 
-   One Plus One
+   - One Plus One
 
-   Fairphone 2
+   - Fairphone 2
 
-   Nexus 5
+   - Nexus 5
 
    Optimus L90
 
@@ -233,9 +229,8 @@ With the success of Halium, our release time frame is expected to be significant
    BQ M10 FHD
 
 
-   To find our most curent and up to date list of devices, please see here:
+   To find our most curent and up to date list of [devices](https://devices.ubports.com/#/)
 
-   https://devices.ubports.com/#/
 
 
 ### 3.5 Will you build on the foundation provided by Canonical?
