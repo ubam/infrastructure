@@ -46,14 +46,15 @@
 |   |   |-    4.8 Who is developing the core OS functions?
 |   |   |-    4.9 Where can I get information on the "core packages"?
 |   |   |-    4.10 What are all the modules Ubuntu Touch is built from and who takes care of them?  (MIR, YUNIT, Core apps, OpenSTORE, ...)
-|   |   |-    4.11 Can you offer full disk encryption capabilities?
-|   |   |-    4.12 How can one contribute to graphics and UX design?
-|   |   |-    4.13 How can I create a theme?
-|   |   |-    4.14 Why are apps not allowed to run in the background/when the phone is locked?
-|   |   |-    4.15 How can I use an SD cards for extra storage?
-|   |   |-    4.16 Have you considered a hotfix release to fix (issue x)?
-|   |   |-    4.17 What is Ubuntu for Android and how does it work with Ubuntu Touch?
-|   |   |-    4.18 Will the ARMv6 architecture be supported?
+|   |   |-    4.11 Halium is a hardware abstraction layer right?
+|   |   |-    4.12 Can you offer full disk encryption capabilities?
+|   |   |-    4.13 How can one contribute to graphics and UX design?
+|   |   |-    4.14 How can I create a theme?
+|   |   |-    4.15 Why are apps not allowed to run in the background/when the phone is locked?
+|   |   |-    4.16 How can I use an SD cards for extra storage?
+|   |   |-    4.17 Have you considered a hotfix release to fix (issue x)?
+|   |   |-    4.18 What is Ubuntu for Android and how does it work with Ubuntu Touch?
+|   |   |-    4.19 Will the ARMv6 architecture be supported?
 |   | 
 |   |- Installation & Porting
 |   |   |-    5.1 Where can I chat about and possibly getting help installing Ubuntu Touch?
@@ -262,7 +263,7 @@ Great question. We are excited about the Librem 5 phone and think it might be a 
 
 ### 3.11 Which applications run on Ubuntu Touch?
 
-There are many applications in the open store http://open.uappexplorer.com that run on Ubuntu Touch. Some popular applications include: Telegram messenger, Podbird (audio shows), Dekko2 (email), Instagraph (instagram) and uNav. However, many of the apps that you know on Android/iOS might not exist yet. There is a project called Anbox that is working on allowing android apps to be run on Ubuntu Touch.
+There are many applications in the [OpenStore](http://open.uappexplorer.com) that run on Ubuntu Touch. Some popular applications include: Telegram messenger, uMatriks, Podbird (audio shows), Dekko2 (email), Instagraph (instagram) and uNav. However, many of the apps that you know on Android/iOS might not exist yet. There is a project called [Anbox](https://docs.ubports.com/en/latest/userguide/dailyuse/anbox.html) that is working on allowing android apps to be run on Ubuntu Touch.
 
 ### 3.12 Anbox ...   The world of Android apps with the power and security of Ubuntu Touch!
 
@@ -322,7 +323,7 @@ No, and why would you want too?  But, because answering questions is fun in the 
  
 ### 4.5 What are the minimum hardware requirements (processor, ram, storage, etc)?
 
-   - Currently on the 15.04 codebase, the minimum specs for the Ubuntu Touch operating system are:
+Currently on the 15.04 codebase, the minimum specs for the Ubuntu Touch operating system are:
 
    - 1 Ghz dual core Cortext A9
 
@@ -335,8 +336,7 @@ No, and why would you want too?  But, because answering questions is fun in the 
 
 ### 4.6 How will Ubuntu Touch work with the new SNAP packages?
 
-Currently not supported but we'll never give up the dream of functional snaps and convergence.
-
+Snap packages are intended to be supported soon on the M10 Tablets and Pro 5 device.
 
 A snap is a self-contained package of libraries and runtimes that provide all the necessary ingredients to allow an application to run. This allow the snap to be confined from the OS and other apps through security mechanisms but still allow communication with other snaps according to policies defined by the user. In addition, users have the ability to upgrade/downgrade applicatinos without affecting the core OS or any other applications. This is game changing for linux as it allows apps to be upgraded and modified worry free since it is possible to easily roll back to a previous state.
 
@@ -375,14 +375,18 @@ The packages we build are also in the [repo](http://repo.ubports.com/pool/xenial
 ### 4.10 What are all the modules Ubuntu Touch is built from and who takes care of them?  (MIR, YUNIT, Core apps, OpenSTORE, ...)
 
 
+### 4.11 Halium is a hardware abstraction layer right?
+
+Halium is the collaborative project to unify the Hardware Abstraction Layer for projects which run GNU/Linux on mobile devices with pre-installed Android.  What this means is quicker development and lanches of Ubuntu Touch on halium based android devices.  None of our existing devices will run halium since it doesn't really make sense from a development stand point.  Ubuntu Touch is being [actively developed](https://github.com/ubports/ubuntu-touch/issues/404) to run on vanilla Halium but isn't ready yet.
 
 
-### 4.11 Can you offer full disk encryption capabilities?
+
+### 4.12 Can you offer full disk encryption capabilities?
 
 We don‘t have a GUI for this yet, but we should have the ability to encrypt the home folder using the terminal similar to how it‘s done on a regular install of Ubuntu.
 
 
-### 4.12 How can one contribute to graphics and UX design?
+### 4.13 How can one contribute to graphics and UX design?
 
 There are multiple ways to present and offer them. Get in touch with us on [Telegram](https://t.me/ubports) or #ubports at Freenode to discuss.
 
@@ -393,21 +397,21 @@ You can also find information on our [Get Involved](https://www.ubports.com/page
 If you wish to submit new designs via [github](https://github.com/ubports/ubuntu-touch/issues), you can start an issue and post images of your ideas.
 
 
-### 4.13 How can I create a theme?
+### 4.14 How can I create a theme?
 
    Right now, you‘d do this by creating a UITK style, but we don‘t have terribly much information for this. It‘s possible that changes will come with 16.04, but we‘re not sure yet.
     
      
-### 4.14 Why are apps not allowed to run in the background/when the phone is locked?
+### 4.15 Why are apps not allowed to run in the background/when the phone is locked?
 
 This was a design decision made by the developers at Canonical. The goal was to give Ubuntu Touch the longest possible battery life, sacrificing a bit of usability for it. For some apps there exists a special rule called lifecycle exception, and they are allowed to work in the background. For example the music player works with this exception. UBports is working on a concept that will relax these strict rules a bit for future releases.
 
 
-### 4.15 How can I use an SD cards for extra storage?
+### 4.16 How can I use an SD cards for extra storage?
 
 
 
-### 4.16 Have you considered a hotfix release to fix (issue x)?
+### 4.17 Have you considered a hotfix release to fix (issue x)?
 
 Yes, we have considered it. We have decided that we will not offer hotfix releases unless an issue is both a regression and critically damages use of the phone. For example, if the radio on every Nexus 5 broke with a stable update, we would release a hotfix.
 
@@ -415,7 +419,7 @@ Yes, we have considered it. We have decided that we will not offer hotfix releas
 Other than that, we want to stick to our 6-8 week schedule of OTAs.
 
 
-### 4.17 What is Ubuntu for Android and how does it work with Ubuntu Touch?
+### 4.18 What is Ubuntu for Android and how does it work with Ubuntu Touch?
 
 Ubuntu Touch is the operating system that runs on the bare metal, so to speak, of the phone and is developed and maintained by UBports. Our software is designed to completely wipe off android, except for the bits to control camera, modem, gps, etc, and install a totally new and advanced OS.
 
@@ -423,7 +427,7 @@ Ubuntu Touch is the operating system that runs on the bare metal, so to speak, o
 Ubuntu for Android is an app created by Canonical for Android devices. The two projects are not related.
 
 
-### 4.18 Will the ARMv6 architecture be supported?
+### 4.19 Will the ARMv6 architecture be supported?
 
 Ubuntu Touch currently targets the ARMv7 and above Appliaction Processor family (Cortex A8, A9 and above).
 
@@ -501,7 +505,7 @@ UBlangs is our telegram group devoted to translating Ubuntu Touch and the applic
 Our [Welcome Page](https://ubports.com/page/telegram-welcome) has a list of current Telegram language groups.  If you don't see your language listed, please contact us to see about setting it up.
 
 
-
+   
 
 
 ## 7. Application Development
@@ -518,7 +522,7 @@ Yes we do!  We are happy to announce that [Anbox](https://anbox.io) is now avail
 
 ### 7.3 Does Ubuntu Touch support Desktop applications?
 
-   Yes-ish. We will try to improve compatibility in the future.
+   We would like a lot more X11 apps to be avaible on Xenial. Xmir will make this a lot easier. The Libertine container was difficult to worth with, but we want it to work.
 
 
 ### 7.4 How can I create apps using Clickable?
