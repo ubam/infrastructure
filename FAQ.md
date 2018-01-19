@@ -94,7 +94,7 @@
 
 Ubuntu Touch is the touch-friendly mobile version of the popular Ubuntu operating system. Originally designed and developed by Canonical Ltd, the project now resides with the UBports Foundation.
 
-The Ubuntu operating system, upon which Ubuntu Touch is based, is one of the most popular Linux distributions in the world. UBports is the new home for Ubuntu Touch and will continue with Canonical's original mission of Convergence — the bold idea of bringing mobile computing to the desktop and desktop computing to mobile which will now be developed by the UBports Foundation.
+The Ubuntu operating system, upon which Ubuntu Touch is based, is one of the most popular GNU/Linux distributions in the world. UBports is the new home for Ubuntu Touch and will continue with Canonical's original mission of Convergence — the bold idea of bringing mobile computing to the desktop and desktop computing to mobile which will now be developed by the UBports Foundation.
 
 The goal of Convergence will be to seamlessly blend mobile and desktop environments into a single unified experience. UBports Foundation is excited to continue development of Ubuntu Touch and to bring Convergence to life.
 
@@ -104,7 +104,7 @@ An amazing team of coders, developers, testers and users from around the world w
 
 ### 1.3 What sets Ubuntu Touch apart from Apple and Android?
     
-Ubuntu Touch has something no other mobile device has. Convergence — One platform for phone, tablet, desktop/laptop, TV and server. Users will experience the freedom of chosing any device they desire by having a unified operatin system. Application developers create programs once, and they are automatically adjusted for optimal use dependent on the user and device. Desktop apps can run on the phone, and phone apps can run on the desktop... with only one app! The possibilities are exiciting and the future of computing is Convergence!
+Ubuntu Touch has something no other mobile device has. Convergence — One platform for phone, tablet and desktop. Users will experience the freedom of chosing any device they desire by having a unified operatin system. Application developers create programs once, and they are automatically adjusted for optimal use dependent on the user and device. Desktop apps can run on the phone, and phone apps can run on the desktop... with only one app! The possibilities are exiciting and the future of computing is Convergence!
 
 ### 1.4 Convergence... what is it and how does it work?
 
@@ -338,7 +338,7 @@ Currently on the 15.04 codebase, the minimum specs for the Ubuntu Touch operatin
 
 Snap packages are intended to be supported soon on the M10 Tablets and Pro 5 device.
 
-A snap is a self-contained package of libraries and runtimes that provide all the necessary ingredients to allow an application to run. This allow the snap to be confined from the OS and other apps through security mechanisms but still allow communication with other snaps according to policies defined by the user. In addition, users have the ability to upgrade/downgrade applicatinos without affecting the core OS or any other applications. This is game changing for linux as it allows apps to be upgraded and modified worry free since it is possible to easily roll back to a previous state.
+A snap is a self-contained package of libraries and runtimes that provide all the necessary ingredients to allow an application to run. This allow the snap to be confined from the OS and other apps through security mechanisms but still allow communication with other snaps according to policies defined by the user. In addition, users have the ability to upgrade/downgrade applicatinos without affecting the core OS or any other applications. This is game changing for GNU/Linux as it allows apps to be upgraded and modified worry free since it is possible to easily roll back to a previous state.
 
 
 ### 4.7 I am interested in learning programming for Ubuntu Touch, what is the best way to start and are there any courses?
@@ -481,7 +481,7 @@ If you are on Ubuntu 16.04 desktop computer, type the following commands in term
 
 It is an older installer that was a temporarly solution when UBports started, and is now being phased out and will be replaced by the UBports-Installer.
 
-[CPT Installer.])https://ubports.com/r/downloads-cpt-linux) 
+[CPT Installer.](https://ubports.com/r/downloads-cpt-linux) 
 
 
 ## 5.8 How do I install Ubuntu Touch on my laptop/desktop?
@@ -547,7 +547,7 @@ If you have any app that you just can't live without and the developer hasn't mo
    - Can install software to a home directory and so does not require sudo
    - Install software not packaged by the native distribution
    - Install up-to-date versions of software when the native distribution is old
-   - Use the same package manager to manage both your Mac and Linux machines
+   - Use the same package manager to manage both your Mac and GNU/Linux machines
 
 
 ### 7.7 Can I use the APT repositories on Ubuntu Touch and install packages?
