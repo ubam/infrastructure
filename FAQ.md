@@ -303,7 +303,7 @@ And of course the [Forums](https://forums.ubports.com) for a more permanent reco
 
 Please start by contacting us in our [Telegram SuperGroup](https://t.me/ubports)
 
-To report any bugs and issues with Ubuntu Touch, go [here](https://github.com/ubports/ubuntu-touch/issues) and search you device code name.
+To report any bugs and issues with Ubuntu Touch, check out [Ubuntu Touch Issues](https://github.com/ubports/ubuntu-touch/issues) and search you device code name.  For proper documenting proecdures and further details on bug reporting, follow our [Issue Tracking Guidelines](https://docs.ubports.com/en/latest/about/process/issue-tracking.html).
 
 
 ### 4.2 By far the thing that excites me the most about Ubuntu Touch is the prospect of Desktop mode, could you explain it in a bit more detail?
