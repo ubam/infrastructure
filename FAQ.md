@@ -269,7 +269,7 @@ There are many applications in the [OpenStore](http://open.uappexplorer.com) tha
 
 Anbox puts the Android operating system into a container, abstracts hardware access and integrates core system services into a GNU/Linux system. Every Android application will be integrated with your operating system like any other native application. 
 
-Installation instructions are now at [UBports Docs](https://docs.ubports.com/en/latest/userguide/dailyuse/anbox.html]
+Installation instructions are now at [UBports Docs](https://docs.ubports.com/en/latest/userguide/dailyuse/anbox.html)
 
 It is to be noted that Anbox currently works only on select devices (listed in the docus) running 16.04. Thus, it is meant only for testing by experienced users in its current state. Neithe Anbox nor 16.04 are ready as a daily driver. Anbox requires a kernel change, which has not been completely tested yet. This is so that the "Android Binder" will work. Eventually there will be a "two-binder" system so that the Anbox and Ubuntu Touch parts don't interfere with each other.
 
@@ -277,7 +277,7 @@ Report any anbox issues [here](https://github.com/ubports/anbox/issues).
 
 ### 3.13 Where can I find apps for Ubuntu Touch?
 
-In the OpenStore app. The Ubuntu Store will be closing its doors at the end of 2017 and we will be working with developers to help migrate their apps over to the OpenStore.
+In the OpenStore app running on Ubuntu Touch or browse online at the [uAppExlorer](https://open.uappexplorer.com/). The Ubuntu Store will be closing its doors at the end of 2017 and we will be working with developers to help migrate their apps over to the OpenStore.
 
 ### 3.14 Is there any documentation for Ubuntu Touch?
 
@@ -318,7 +318,7 @@ Yes, if your phone is capable you will be able to run Ubuntu Touch on it's touch
 
 ### 4.4 Is it possible to dual-boot with Android? (e.g. Multirom)
 
-No, and why would you want too?  But, because answering questions is fun in the FAQ section, we haven’t played with MultiROM in over a year and it would be too much work to fix it right now. So, if you have MultiROM and you want Ubuntu Touch, you will have to choose one OS. That *may* change with Halium project, but that’s not carved in stone yet and we won’t make any promises.
+Multiboot is not fun to maintain and we don't have time to do it. Some people have been able to get this working with kernel patches and recovery tricks, but it will kill OTA updates. We plan for Anbox to solve the Android problem.
 
  
 ### 4.5 What are the minimum hardware requirements (processor, ram, storage, etc)?
@@ -336,9 +336,7 @@ Currently on the 15.04 codebase, the minimum specs for the Ubuntu Touch operatin
 
 ### 4.6 How will Ubuntu Touch work with the new SNAP packages?
 
-Snap packages are intended to be supported soon on the M10 Tablets and Pro 5 device.
-
-A snap is a self-contained package of libraries and runtimes that provide all the necessary ingredients to allow an application to run. This allow the snap to be confined from the OS and other apps through security mechanisms but still allow communication with other snaps according to policies defined by the user. In addition, users have the ability to upgrade/downgrade applicatinos without affecting the core OS or any other applications. This is game changing for GNU/Linux as it allows apps to be upgraded and modified worry free since it is possible to easily roll back to a previous state.
+A snap is a self-contained package of libraries and runtimes that provide all the necessary ingredients to allow an application to run. This allow the snap to be confined from the OS and other apps through security mechanisms but still allow communication with other snaps according to policies defined by the user. In addition, users have the ability to upgrade/downgrade applicatinos without affecting the core OS or any other applications. This is game changing for GNU/Linux as it allows apps to be upgraded and modified worry free since it is possible to easily roll back to a previous state. Our goal is to support Snap packages on the M10 Tablets and Pro 5 device once the 16.04 update arrives. OS and Kernel patches will need modification and this is still a work in progress.
 
 
 ### 4.7 I am interested in learning programming for Ubuntu Touch, what is the best way to start and are there any courses?
@@ -409,7 +407,7 @@ This was a design decision made by the developers at Canonical. The goal was to 
 
 ### 4.16 How can I use an SD cards for extra storage?
 
-
+The internal memory of your Ubuntu Touch device can be expanded using a microSD card as long as your device has the hardware to support it.  To begin using an SD card, simple insert it into your device until you hear a click which indicates its been inserted correctly.  To remove the card, safely unmount the card using the External Drives app, then press in on the card to eject it.
 
 ### 4.17 Have you considered a hotfix release to fix (issue x)?
 
