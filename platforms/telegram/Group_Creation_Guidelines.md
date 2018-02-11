@@ -30,7 +30,7 @@ Group stickers | (none? this could become a nuisance, even if seemingly fun or e
 
 ### Invite link
 
-Public groups benefit from having an easily readable invite link, also allowing the use of a `@username` but for the group inside Telegram. Obviously, for "private" groups where people should not be able to randomly join but be invited individually setting up an easy way in is counterproductive.
+"Public" groups benefit from having an easily readable invite link, also allowing the use of a `@username` but for the group inside Telegram. Obviously, for "private" groups, where people should not be able to randomly join but be invited individually, setting up an easy way in is counterproductive. This was sensably implemented together with the Public/Private Group switch for supergroups. This suggests the convention that all groups intended to be "public" to be a supergroup set as Public.
 
 Invite links and thus group usernames for general groups are proposed to follow a consitent pattern:    `@UBports_Purpose`  (the use of CamelCase is encouraged globally, even should the invite link have been created e.g. all lowercase)
 Examples are the dedicated parents group `@UBports_Parents` and `@UBports_Cloudsters`.
