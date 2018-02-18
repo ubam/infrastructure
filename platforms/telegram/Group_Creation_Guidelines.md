@@ -24,7 +24,7 @@
 
 Name | *[TODO]*
 -------- | --------
-Description | *[TODO]*
+Description | *[TODO]* (Language groups: include your translation of `THIS GROUP IS GOVERNED BY UBUNTU CODE OF CONDUCT: https://www.ubuntu.com/about/about-ubuntu/conduct`)
 Who can add members | *[TODO]*
 Group stickers | (none? this could become a nuisance, even if seemingly fun or even fitting at first)
 
