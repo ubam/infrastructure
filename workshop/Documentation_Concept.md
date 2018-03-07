@@ -1,11 +1,18 @@
-# UBFR Docs Concept
+# UBAM Docs Concept
 
 *Developing an organizational structure to use in a GitHub repo*
 
-**Purpose:** The UBFR aims to create a documentation space separate from docs.ubports.com to have a cache of knowledge to point newcomers to on repeated questions. As this will naturally be almost exclusively aimed at newcomers, the information recorded will not go into technical detail or tackle more advanced problems, but display processes near to the start of a new users experience more detailled than the UBports Docs. To quickly re-discover already documented information and improve on existing one, or being able to create a new document after quickly determining a topic is not already available, the documentation must be managed in a very organized and clear fashion, especially with incrasing amounts of stored knowledge.
+**Purpose:** UBAM (at time of conception still just the UBFR) aims to create a document space separate from docs.ubports.com to document workflows, hold information about the community infrastructure and to have a cache of knowledge to point newcomers to on repeated questions.
 
-Current state:    **[ planning only ]**
+*UBFR docs specific:* As this will naturally be almost exclusively aimed at newcomers, the information recorded will not go into technical detail or tackle more advanced problems, but display processes near to the start of a new users experience more detailled than the UBports Docs. To quickly re-discover already documented information and improve on existing one, or being able to create a new document after quickly determining a topic is not already available, the documentation must be managed in a very organized and clear fashion, especially with incrasing amounts of stored knowledge.
 
+Current state:    **[ in execution ]**
+
+- [X] develop initial structural concept
+- [X] create hosting space ([github.com/ubam](https://github.com/ubam/))
+- [X] create/populate with structure
+- [X] transition existing pads to md documents
+- [ ] add (and settle on versions of existing) workflows
 
 
 ## hosting
